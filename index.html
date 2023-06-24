@@ -7,244 +7,239 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <style>
-                  :root {
-                      --color-black: rgb(0, 0, 0);
-                      --color-white: rgb(255, 255, 255);
-                      --color-slate-50: rgb(248, 250, 252);
-                      --color-slate-100: rgb(241, 245, 249);
-                      --color-slate-200: rgb(226, 232, 240);
-                      --color-slate-300: rgb(203, 213, 225);
-                      --color-slate-400: rgb(148, 163, 184);
-                      --color-slate-500: rgb(100, 116, 139);
-                      --color-slate-600: rgb(71, 85, 105);
-                      --color-slate-700: rgb(51, 65, 85);
-                      --color-slate-800: rgb(30, 41, 59);
-                      --color-slate-900: rgb(15, 23, 42);
-                      --color-slate-950: rgb(2, 6, 23);
-                      --color-gray-50: rgb(249, 250, 251);
-                      --color-gray-100: rgb(243, 244, 246);
-                      --color-gray-200: rgb(229, 231, 235);
-                      --color-gray-300: rgb(209, 213, 219);
-                      --color-gray-400: rgb(156, 163, 175);
-                      --color-gray-500: rgb(107, 114, 128);
-                      --color-gray-600: rgb(75, 85, 99);
-                      --color-gray-700: rgb(55, 65, 81);
-                      --color-gray-800: rgb(31, 41, 55);
-                      --color-gray-900: rgb(17, 24, 39);
-                      --color-gray-950: rgb(3, 7, 18);
-                      --color-zinc-50: rgb(250, 250, 250);
-                      --color-zinc-100: rgb(244, 244, 245);
-                      --color-zinc-200: rgb(228, 228, 231);
-                      --color-zinc-300: rgb(212, 212, 216);
-                      --color-zinc-400: rgb(161, 161, 170);
-                      --color-zinc-500: rgb(113, 113, 122);
-                      --color-zinc-600: rgb(82, 82, 91);
-                      --color-zinc-700: rgb(63, 63, 70);
-                      --color-zinc-800: rgb(39, 39, 42);
-                      --color-zinc-900: rgb(24, 24, 27);
-                      --color-zinc-950: rgb(9, 9, 11);
-                      --color-neutral-50: rgb(250, 250, 250);
-                      --color-neutral-100: rgb(245, 245, 245);
-                      --color-neutral-200: rgb(229, 229, 229);
-                      --color-neutral-300: rgb(212, 212, 212);
-                      --color-neutral-400: rgb(163, 163, 163);
-                      --color-neutral-500: rgb(115, 115, 115);
-                      --color-neutral-600: rgb(82, 82, 82);
-                      --color-neutral-700: rgb(64, 64, 64);
-                      --color-neutral-800: rgb(38, 38, 38);
-                      --color-neutral-900: rgb(23, 23, 23);
-                      --color-neutral-950: rgb(10, 10, 10);
-                      --color-stone-50: rgb(250, 250, 249);
-                      --color-stone-100: rgb(245, 245, 244);
-                      --color-stone-200: rgb(231, 229, 228);
-                      --color-stone-300: rgb(214, 211, 209);
-                      --color-stone-400: rgb(168, 162, 158);
-                      --color-stone-500: rgb(120, 113, 108);
-                      --color-stone-600: rgb(87, 83, 78);
-                      --color-stone-700: rgb(68, 64, 60);
-                      --color-stone-800: rgb(41, 37, 36);
-                      --color-stone-900: rgb(28, 25, 23);
-                      --color-stone-950: rgb(12, 10, 9);
-                      --color-red-50: rgb(254, 242, 242);
-                      --color-red-100: rgb(254, 226, 226);
-                      --color-red-200: rgb(254, 202, 202);
-                      --color-red-300: rgb(252, 165, 165);
-                      --color-red-400: rgb(248, 113, 113);
-                      --color-red-500: rgb(239, 68, 68);
-                      --color-red-600: rgb(220, 38, 38);
-                      --color-red-700: rgb(185, 28, 28);
-                      --color-red-800: rgb(153, 27, 27);
-                      --color-red-900: rgb(127, 29, 29);
-                      --color-red-950: rgb(69, 10, 10);
-                    }
+      :root {
+        --color-black: rgb(0, 0, 0);
+        --color-white: rgb(255, 255, 255);
+        --color-slate-50: rgb(248, 250, 252);
+        --color-slate-100: rgb(241, 245, 249);
+        --color-slate-200: rgb(226, 232, 240);
+        --color-slate-300: rgb(203, 213, 225);
+        --color-slate-400: rgb(148, 163, 184);
+        --color-slate-500: rgb(100, 116, 139);
+        --color-slate-600: rgb(71, 85, 105);
+        --color-slate-700: rgb(51, 65, 85);
+        --color-slate-800: rgb(30, 41, 59);
+        --color-slate-900: rgb(15, 23, 42);
+        --color-slate-950: rgb(2, 6, 23);
+        --color-gray-50: rgb(249, 250, 251);
+        --color-gray-100: rgb(243, 244, 246);
+        --color-gray-200: rgb(229, 231, 235);
+        --color-gray-300: rgb(209, 213, 219);
+        --color-gray-400: rgb(156, 163, 175);
+        --color-gray-500: rgb(107, 114, 128);
+        --color-gray-600: rgb(75, 85, 99);
+        --color-gray-700: rgb(55, 65, 81);
+        --color-gray-800: rgb(31, 41, 55);
+        --color-gray-900: rgb(17, 24, 39);
+        --color-gray-950: rgb(3, 7, 18);
+        --color-zinc-50: rgb(250, 250, 250);
+        --color-zinc-100: rgb(244, 244, 245);
+        --color-zinc-200: rgb(228, 228, 231);
+        --color-zinc-300: rgb(212, 212, 216);
+        --color-zinc-400: rgb(161, 161, 170);
+        --color-zinc-500: rgb(113, 113, 122);
+        --color-zinc-600: rgb(82, 82, 91);
+        --color-zinc-700: rgb(63, 63, 70);
+        --color-zinc-800: rgb(39, 39, 42);
+        --color-zinc-900: rgb(24, 24, 27);
+        --color-zinc-950: rgb(9, 9, 11);
+        --color-neutral-50: rgb(250, 250, 250);
+        --color-neutral-100: rgb(245, 245, 245);
+        --color-neutral-200: rgb(229, 229, 229);
+        --color-neutral-300: rgb(212, 212, 212);
+        --color-neutral-400: rgb(163, 163, 163);
+        --color-neutral-500: rgb(115, 115, 115);
+        --color-neutral-600: rgb(82, 82, 82);
+        --color-neutral-700: rgb(64, 64, 64);
+        --color-neutral-800: rgb(38, 38, 38);
+        --color-neutral-900: rgb(23, 23, 23);
+        --color-neutral-950: rgb(10, 10, 10);
+        --color-stone-50: rgb(250, 250, 249);
+        --color-stone-100: rgb(245, 245, 244);
+        --color-stone-200: rgb(231, 229, 228);
+        --color-stone-300: rgb(214, 211, 209);
+        --color-stone-400: rgb(168, 162, 158);
+        --color-stone-500: rgb(120, 113, 108);
+        --color-stone-600: rgb(87, 83, 78);
+        --color-stone-700: rgb(68, 64, 60);
+        --color-stone-800: rgb(41, 37, 36);
+        --color-stone-900: rgb(28, 25, 23);
+        --color-stone-950: rgb(12, 10, 9);
+        --color-red-50: rgb(254, 242, 242);
+        --color-red-100: rgb(254, 226, 226);
+        --color-red-200: rgb(254, 202, 202);
+        --color-red-300: rgb(252, 165, 165);
+        --color-red-400: rgb(248, 113, 113);
+        --color-red-500: rgb(239, 68, 68);
+        --color-red-600: rgb(220, 38, 38);
+        --color-red-700: rgb(185, 28, 28);
+        --color-red-800: rgb(153, 27, 27);
+        --color-red-900: rgb(127, 29, 29);
+        --color-red-950: rgb(69, 10, 10);
+      }
 
-                    body {
-                      display: flex;
-                      flex-direction: column;
-                      width: min(40ch, 90%);
-                      font-family: system-ui;
+      body {
+        display: flex;
+        flex-direction: column;
+        width: min(40ch, 90%);
+        font-family: system-ui;
 
-                      margin-inline: auto;
+        margin-inline: auto;
 
-                      --bg-color: var(--color-white);
-                      --bg-input: var(--color-gray-100);
-                      --text-color: var(--color-black);
-                      --accent-color: var(--color-red-800);
-                      --accent-color-focus: var(--color-red-600);
-                      --text-input: var(--color-black);
+        --bg-color: var(--color-white);
+        --bg-input: var(--color-gray-100);
+        --text-color: var(--color-black);
+        --accent-color: var(--color-red-800);
+        --accent-color-focus: var(--color-red-600);
+        --text-input: var(--color-black);
 
-                      background-color: var(--bg-color);
-                      color: var(--text-color);
-                    }
+        background-color: var(--bg-color);
+        color: var(--text-color);
+      }
 
-                    @media (prefers-color-scheme: dark) {
-                      body {
-                        --text-color: var(--color-white);
-                        --bg-color: var(--color-gray-900);
-                        --bg-input: var(--color-gray-800);
-                        --text-input: var(--color-white);
-                      }
-                    }
+      @media (prefers-color-scheme: dark) {
+        body {
+          --text-color: var(--color-white);
+          --bg-color: var(--color-gray-900);
+          --bg-input: var(--color-gray-800);
+          --text-input: var(--color-white);
+        }
+      }
 
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
+        row-gap: 0.6rem;
+        column-gap: 0.6rem;
+        width: 100%;
+      }
 
-                    .container {
-                      display: grid;
-                      grid-template-columns: 1fr 1fr;
-                      flex-direction: column;
-                      row-gap: 0.6rem;
-                      column-gap: 0.6rem;
-                      width: 100%;
-                    }
+      h1,
+      h2,
+      h3 {
+        margin-block: 0.5rem;
+      }
 
-                    h1,
-                    h2,
-                    h3 {
-                      margin-block: 0.5rem;
-                    }
+      h2 {
+        grid-column: span 2 / span 2;
+      }
 
-                    h2 {
-                      grid-column: span 2 / span 2;
-                    }
+      label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-                    label {
-                      display: flex;
-                      justify-content: space-between;
-                      align-items: center;
+        padding: 0.5rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        border-radius: 0.5rem;
+        position: relative;
 
-                      padding: 0.5rem;
-                      font-size: 1.125rem;
-                      line-height: 1.75rem;
-                      border-radius: 0.5rem;
-                      position: relative;
+        background-color: var(--bg-input);
+      }
 
-                      background-color: var(--bg-input);
-                    }
+      .result {
+        background-color: var(--bg-color);
+      }
 
-                    .result {
-                      background-color: var(--bg-color);
-                    }
+      fieldset {
+        pointer-events: none;
+        border-style: solid;
+        overflow: hidden;
+        min-width: 0%;
+        border-width: 1px;
+        border-radius: inherit;
+        padding: 0px 8px;
+        margin: 0px;
+        position: absolute;
+        text-align: left;
+        border-color: var(--accent-color);
+        inset: -5px 0px 0px;
+        overflow: hidden;
+      }
 
+      legend {
+        float: unset;
+        width: auto;
+        overflow: hidden;
+        display: block;
+        padding: 0;
+        height: 11px;
+        font-size: 0.75em;
+        visibility: hidden;
+        max-width: 100%;
+        -webkit-transition: max-width 100ms cubic-bezier(0, 0, 0.2, 1) 50ms;
+        transition: max-width 100ms cubic-bezier(0, 0, 0.2, 1) 50ms;
+        white-space: nowrap;
+      }
 
+      .placeholder-drop {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        display: inline-block;
+        opacity: 0;
+        visibility: visible;
+      }
 
-                    fieldset {
-                      pointer-events: none;
-                      border-style: solid;
-                      overflow: hidden;
-                      min-width: 0%;
-                      border-width: 1px;
-                      border-radius: inherit;
-                      padding: 0px 8px;
-                      margin: 0px;
-                      position: absolute;
-                      text-align: left;
-                      border-color: var(--accent-color);
-                      inset: -5px 0px 0px;
-                      overflow: hidden;
-                    }
+      .output {
+        font-size: 1rem;
+        margin-inline: auto;
+      }
+      .placeholder {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.4375em;
+        letter-spacing: 0.00938em;
+        padding: 0px;
+        display: block;
+        transform-origin: left top 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: calc(133% - 32px);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        transform: translate(14px, -9px) scale(0.75);
+        transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+          transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms,
+          max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+        z-index: 1;
+        pointer-events: auto;
+        user-select: none;
+      }
 
+      input {
+        width: 100%;
+        color: var(--text-input);
+        border: none;
+        background-color: transparent;
+        text-align: center;
+      }
 
+      input:focus,
+      input:focus-within {
+        border: none;
+        outline: none;
+      }
 
-                    legend {
-                      float: unset;
-                      width: auto;
-                      overflow: hidden;
-                      display: block;
-                      padding: 0;
-                      height: 11px;
-                      font-size: 0.75em;
-                      visibility: hidden;
-                      max-width: 100%;
-                      -webkit-transition: max-width 100ms cubic-bezier(0, 0, 0.2, 1) 50ms;
-                      transition: max-width 100ms cubic-bezier(0, 0, 0.2, 1) 50ms;
-                      white-space: nowrap;
-                    }
+      input:focus ~ fieldset,
+      input:focus-within ~ fieldset {
+        border-color: var(--accent-color-focus);
+      }
 
-                    .placeholder-drop {
-                      padding-left: 0.25rem;
-                      padding-right: 0.25rem;
-                      display: inline-block;
-                      opacity: 0;
-                      visibility: visible;
-                    }
-
-
-            .output {
-              font-size: 1rem;
-              margin-inline: auto;
-            }
-                    .placeholder {
-                      font-weight: 400;
-                      font-size: 1rem;
-                    line-height: 1.4375em;
-                    letter-spacing: 0.00938em;
-                    padding: 0px;
-                    display: block;
-                    transform-origin: left top 0px;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    max-width: calc(133% - 32px);
-                    position: absolute;
-                    left: 0px;
-                    top: 0px;
-                    transform: translate(14px, -9px) scale(0.75);
-                    transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
-                    z-index: 1;
-                    pointer-events: auto;
-                    user-select: none;
-                    }
-
-                    input {
-                      width: 100%;
-                      color: var(--text-input);
-                      border: none;
-                      background-color: transparent;
-                      text-align: center;
-                    }
-
-                    input:focus,
-                    input:focus-within {
-                      border: none;
-                      outline: none;
-                    }
-
-                    input:focus ~ fieldset,
-                    input:focus-within ~ fieldset {
-                      border-color: var(--accent-color-focus);
-                    }
-
-
-                    .sr-only {
-                      position: absolute;
-                      width: 1px;
-                      height: 1px;
-                      padding: 0;
-                      margin: -1px;
-                      overflow: hidden;
-                      clip: rect(0, 0, 0, 0);
-                      white-space: nowrap;
-                      border-width: 0;
-                    }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
     </style>
   </head>
 
@@ -262,7 +257,7 @@
             <span class="placeholder">
               Dust
             </span>
-            <span class="output" id="dust">0.00</span>
+            <span class="output" id="dust">...</span>
             <fieldset>
               <legend>
                 <span class="placeholder-drop">Dust</span>
@@ -274,7 +269,7 @@
             <span class="placeholder">
               Infusions
             </span>
-            <span class="output" id="total_infusions">0.00</span>
+            <span class="output" id="total_infusions">...</span>
             <fieldset>
               <legend>
                 <span class="placeholder-drop">Infusions</span>
@@ -286,7 +281,7 @@
             <span class="placeholder">
               Expeditions
             </span>
-            <span class="output" id="total_expeditions">0.00</span>
+            <span class="output" id="total_expeditions">...</span>
             <fieldset>
               <legend>
                 <span class="placeholder-drop">Expeditions</span>
@@ -298,7 +293,7 @@
             <span class="placeholder">
               XP per expedition
             </span>
-            <span class="output" id="total_xp_per_expedition">0.00</span>
+            <span class="output" id="total_xp_per_expedition">...</span>
             <fieldset>
               <legend>
                 <span class="placeholder-drop">XP per expedition</span>
@@ -339,7 +334,7 @@
       <section class="container">
         <h2>Average Per Expedition</h2>
         <label>
-          <input value="0" min="0" type="number" id="dust_per_expedition" />
+          <input value="4" min="0" type="number" id="dust_per_expedition" />
           <span class="placeholder">Dust</span>
 
           <fieldset>
@@ -350,7 +345,7 @@
         </label>
 
         <label>
-          <input value="0" min="0" type="number" id="sessions_per_expedition" />
+          <input value="5" min="0" type="number" id="sessions_per_expedition" />
           <span class="placeholder">Sessions</span>
 
           <fieldset>
@@ -361,7 +356,7 @@
         </label>
 
         <label>
-          <input value="0" min="0" type="number" id="combats_per_expedition" />
+          <input value="3" min="0" type="number" id="combats_per_expedition" />
           <span class="placeholder">Combats</span>
           <fieldset>
             <legend>
@@ -371,7 +366,7 @@
         </label>
 
         <label>
-          <input value="0" min="0" type="number" id="xp_per_expedition" />
+          <input value="6" min="0" type="number" id="xp_per_expedition" />
           <span class="placeholder">XP</span>
           <fieldset>
             <legend>
